@@ -3,7 +3,7 @@ import './App.scss';
 import Header from "./components/Header/Header";
 import {useTelegram} from "./hooks/useTelegram";
 import {useEffect} from "react";
-// import ProductList from "./components/ProductList/ProductList";
+import ProductList from "./components/ProductList/ProductList";
 
 
 
@@ -17,9 +17,7 @@ function App() {
   return (
     <div className="App">
         <Header/>
-
-        <p>fdsfsdfs</p>
-        {/*<ProductList/>*/}
+        <ProductList/>
     </div>
   );
 }
