@@ -1,23 +1,23 @@
 
 import React, {useState} from 'react';
 import ProductItem from "../ProductItem/ProductItem";
-import {useTelegram} from "../../hooks/useTelegram";
-import {useCallback, useEffect} from "react";
+// import {useTelegram} from "../../hooks/useTelegram";
+// import {useCallback, useEffect} from "react";
 import styles from "./ProductList.module.scss"
 import axios from "axios";
 
 
 
-const getTotalPrice = (items = []) => {
-    return items.reduce((acc, item) => {
-        return acc += item.price
-    }, 0)
-}
+// const getTotalPrice = (items = []) => {
+//     return items.reduce((acc, item) => {
+//         return acc += item.price
+//     }, 0)
+// }
 
 const ProductList = () => {
-    const [addedItems, setAddedItems] = useState([]);
+    // const [addedItems, setAddedItems] = useState([]);
     const [products, setProduct] = useState([])
-    const {tg, queryId} = useTelegram();
+    // const {tg, queryId} = useTelegram();
 
 
     React.useEffect(()=>{
