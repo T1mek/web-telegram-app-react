@@ -4,9 +4,9 @@ import styles from './ProductItem.module.scss';
 
 const ProductItem = ({product, className, onAdd}) => {
     const {images} = product;
-    const onAddHandler = () => {
-        onAdd(product);
-    }
+    // const onAddHandler = () => {
+    //     onAdd(product);
+    // }
 
     return (
         <div className={styles.product + className}>
@@ -25,7 +25,9 @@ const ProductItem = ({product, className, onAdd}) => {
             <div>
                 <span>Стоимость: <b>{product.price} руб.</b></span>
             </div>
-            <Button className={styles.addBtn} onClick={onAddHandler}>
+            <Button className={styles.addBtn}
+                    // onClick={onAddHandler}
+            >
                 Добавить в корзину
             </Button>
         </div>

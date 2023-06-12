@@ -13,7 +13,10 @@
       <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/product/product.entity.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/utils/base.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductList/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/ProductList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
       <workItem from="1686061522965" duration="3888000" />
       <workItem from="1686128484320" duration="7708000" />
       <workItem from="1686218246847" duration="21261000" />
-      <workItem from="1686473049625" duration="8826000" />
+      <workItem from="1686473049625" duration="9797000" />
     </task>
     <servers />
   </component>
