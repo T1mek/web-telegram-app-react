@@ -9,7 +9,7 @@ const ProductItem = ({product, className, onAdd}) => {
     // }
 
     return (
-        <div className={styles.product + className}>
+        <div className={styles.product}>
             <div className={styles.img}>
                 <img src={`http://localhost:3100/imageItems/${images[0]}`} alt=""/>
 
