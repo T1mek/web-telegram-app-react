@@ -27,7 +27,7 @@ const ProductList = () => {
         }
             fetchProducts()
         }
-        ,[products])
+        ,[])
 
     // const onSendData = useCallback(() => {
     //     const data = {
