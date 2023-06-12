@@ -20,6 +20,8 @@ function App() {
         <p>sddsfsdf</p>
         <ProductList/>
         <p>dfsdfasdf</p>
+
+        <h3>Привет</h3>
     </div>
   );
 }

@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d29ae4bd-c651-4438-8a81-88df1f9b67f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../telegram_web_backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/config/jwt-token.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/config/typeorm.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/file/file.serice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/product/dto/create-product.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/product/product.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../telegram_web_backend/src/utils/base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../telegram_web_backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../telegram_web_backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../telegram_web_backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../telegram_web_backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../telegram_web_backend/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../telegram_web_backend/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../telegram_web_backend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../telegram_web_backend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -85,7 +84,7 @@
       <workItem from="1686061522965" duration="3888000" />
       <workItem from="1686128484320" duration="7708000" />
       <workItem from="1686218246847" duration="21261000" />
-      <workItem from="1686473049625" duration="10856000" />
+      <workItem from="1686473049625" duration="12524000" />
     </task>
     <servers />
   </component>
