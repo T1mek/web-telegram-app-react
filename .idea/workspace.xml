@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/../telegram_web_backend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../telegram_web_backend/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductList/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/ProductList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <workItem from="1686061522965" duration="3888000" />
       <workItem from="1686128484320" duration="7708000" />
       <workItem from="1686218246847" duration="21261000" />
-      <workItem from="1686473049625" duration="12524000" />
+      <workItem from="1686473049625" duration="12901000" />
     </task>
     <servers />
   </component>

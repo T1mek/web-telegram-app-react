@@ -1,10 +1,10 @@
 
-import React, {useState} from 'react';
-import ProductItem from "../ProductItem/ProductItem";
+import React from 'react';
+// import ProductItem from "../ProductItem/ProductItem";
 // import {useTelegram} from "../../hooks/useTelegram";
 // import {useCallback, useEffect} from "react";
 import styles from "./ProductList.module.scss"
-import axios from "axios";
+// import axios from "axios";
 
 
 
@@ -16,18 +16,18 @@ import axios from "axios";
 
 const ProductList = () => {
     // const [addedItems, setAddedItems] = useState([]);
-    const [products, setProduct] = useState([])
-    // const {tg} = useTelegram();
-
-
-    React.useEffect(()=>{
-        const fetchProducts = async ()=>{
-            const {data}  = await axios.get('http://localhost:3100/products')
-            setProduct(data)
-        }
-            fetchProducts()
-        }
-        ,[])
+    // const [products, setProduct] = useState([])
+    // // const {tg} = useTelegram();
+    //
+    //
+    // React.useEffect(()=>{
+    //     const fetchProducts = async ()=>{
+    //         const {data}  = await axios.get('http://localhost:3100/products')
+    //         setProduct(data)
+    //     }
+    //         fetchProducts()
+    //     }
+    //     ,[])
 
     // const onSendData = useCallback(() => {
     //     const data = {
@@ -74,14 +74,16 @@ const ProductList = () => {
     // }
     return (
         <div className={styles.list}>
-            {products.map(item => (
-                <ProductItem
-                    key={item.id}
-                    product={item}
-                    // onAdd={onAdd}
-                    className={styles.item}
-                />
-            ))}
+            {/*{products.map(item => (*/}
+            {/*    <ProductItem*/}
+            {/*        key={item.id}*/}
+            {/*        product={item}*/}
+            {/*        // onAdd={onAdd}*/}
+            {/*        className={styles.item}*/}
+            {/*    />*/}
+            {/*))}*/}
+
+            <h2>Хай</h2>
         </div>
     );
 };

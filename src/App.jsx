@@ -17,11 +17,7 @@ function App() {
   return (
     <div className="App">
         <Header/>
-        <p>sddsfsdf</p>
         <ProductList/>
-        <p>dfsdfasdf</p>
-
-        <h3>Привет</h3>
     </div>
   );
 }
