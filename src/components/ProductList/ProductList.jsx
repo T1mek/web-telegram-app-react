@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react';
 import ProductItem from "../ProductItem/ProductItem";
-import {useTelegram} from "../../hooks/useTelegram";
+// import {useTelegram} from "../../hooks/useTelegram";
 // import {useCallback, useEffect} from "react";
 import styles from "./ProductList.module.scss"
 import axios from "axios";
@@ -17,7 +17,7 @@ import axios from "axios";
 const ProductList = () => {
     // const [addedItems, setAddedItems] = useState([]);
     const [products, setProduct] = useState([])
-    const {tg} = useTelegram();
+    // const {tg} = useTelegram();
 
 
     React.useEffect(()=>{
